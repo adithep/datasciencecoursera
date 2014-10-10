@@ -3,7 +3,9 @@ rankhospital <- function(state, outcome, num = "best") {
   ## Check that state and outcome are valid
   ## Return hospital name in that state with the given rank
   ## 30-day death rate
-  cs <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+  c <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+  ndx <- order(c$Hospital.Name)
+  cs <- c[ndx,]
   if (length(cs$State[cs$State==state])<=0) {
     stop("invalid state")
   }
@@ -16,4 +18,18 @@ rankhospital <- function(state, outcome, num = "best") {
   } else {
     stop("invalid outcome")
   }
+  t <- cs$State==state
+  eh<-cs$Hospital.Name[t]
+  if (num=="best") {
+    h <- which(v[t] == min(v[t], na.rm = T))
+    ret<-eh[h][1]
+  } else if (num == "worst") {
+    h <- which(v[t] == max(v[t], na.rm = T))
+    ret<-eh[h][1]
+  } else if (is(num,"numeric")) {
+    ra <- order(v[t], na.last = NA)
+    rd<-eh[ra]
+    ret <- rd[num]
+  }
+  ret
 }
