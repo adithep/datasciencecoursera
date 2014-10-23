@@ -110,6 +110,30 @@
 				"buffer_size": 1011,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "intror/week4/best.R",
+			"settings":
+			{
+				"buffer_size": 913,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "intror/week4/rankhospital.R",
+			"settings":
+			{
+				"buffer_size": 1145,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "intror/week4/rankall.R",
+			"settings":
+			{
+				"buffer_size": 1383,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -118,6 +142,10 @@
 		"height": 400.0,
 		"selected_items":
 		[
+			[
+				"csv",
+				"CSV: Use First Row As Header"
+			],
 			[
 				"ins",
 				"Package Control: Install Package"
@@ -187,7 +215,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 664.0
+		"width": 475.0
 	},
 	"console":
 	{
@@ -208,12 +236,12 @@
 	},
 	"expanded_folders":
 	[
-		"/HOME/adithep/Desktop/courses/datasciencecoursera/intror",
-		"/HOME/adithep/Desktop/courses/datasciencecoursera/intror/hw2/specdata",
-		"/HOME/adithep/Desktop/courses/ProgrammingAssignment2"
+		"/HOME/adithep/Desktop/courses/datasciencecoursera/intror/week4"
 	],
 	"file_history":
 	[
+		"/HOME/adithep/.bashrc",
+		"/HOME/adithep/Desktop/courses/datasciencecoursera/intror/week4/outcome-of-care-measures.csv",
 		"/HOME/adithep/Desktop/courses/datasciencecoursera/intror/hw2/pa1airpolution.R",
 		"/HOME/adithep/Desktop/apps/mods/alpha-layout/evt.js",
 		"/HOME/adithep/Desktop/apps/mods/core-server/core-server.js",
@@ -238,7 +266,6 @@
 		"/HOME/adithep/Desktop/apps/mods/node-util/sublpack.sh",
 		"/HOME/adithep/Desktop/apps/mods/node-util/package.json",
 		"/HOME/adithep/Desktop/ab1.html",
-		"/HOME/adithep/.bashrc",
 		"/HOME/adithep/Desktop/Edit 'Crown 1 Br' - Airbnb.html",
 		"/HOME/adithep/Desktop/apps/mods/.gitignore",
 		"/HOME/adithep/Desktop/apps/syncateapp/.gitignore",
@@ -340,8 +367,7 @@
 		"/HOME/adithep/Desktop/alpha/packages/seed-json/currencies.json",
 		"/HOME/adithep/Desktop/alpha/packages/seed-json/c_c.json",
 		"/HOME/adithep/Desktop/alpha/packages/seed-json/countries.json",
-		"/HOME/adithep/Desktop/alpha/packages/seed-json/country_borders.json",
-		"/HOME/adithep/Desktop/alpha/packages/seed-json/country_currency.json"
+		"/HOME/adithep/Desktop/alpha/packages/seed-json/country_borders.json"
 	],
 	"find":
 	{
@@ -359,6 +385,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"PATH",
 			"cr",
 			"data",
 			"credit_card_amount",
@@ -488,7 +515,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -518,7 +545,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -548,7 +575,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -564,7 +591,7 @@
 						"selection":
 						[
 							[
-								441,
+								427,
 								441
 							]
 						],
@@ -580,7 +607,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -612,7 +639,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -642,7 +669,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -658,8 +685,8 @@
 						"selection":
 						[
 							[
-								287,
-								287
+								776,
+								776
 							]
 						],
 						"settings":
@@ -670,6 +697,100 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "intror/week4/best.R",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								791,
+								791
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "r",
+							"buffer_scroll_name": "3590dd22",
+							"syntax": "Packages/R/R.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "intror/week4/rankhospital.R",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								311,
+								311
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "r",
+							"buffer_scroll_name": "bd1c2490",
+							"syntax": "Packages/R/R.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "intror/week4/rankall.R",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								259,
+								259
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "7ad2cfdf",
+							"syntax": "Packages/R/R.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 74.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
